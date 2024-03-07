@@ -20,7 +20,7 @@ v15 = "-".join(frase) # ele junta os caracteres separados e usando o -/ curso-em
 print(v1, " (1) // len(frase) // calcula o tamanho da frase \n")
 print(v2, "(2) // frase.count(""ex"") // calcula a quantidade do item escolhido na str exemplo ""v2 = frase.count(""ex"" \n ")
 print(v3, "(3) // frase.count(""o"", 0, 13) // ele vai contar quantos (o) tem na frase a partir do indice 0 até o indice 13 mas não exatamente ao 13 e sim ao 12 \n")
-print(v4, "(4) // frase.find(""deo"") // ele encontra onde começou o deo, no caso indice 13 então frase.find(""deo"") = 13 \n")
+print(v4, "(4) // frase.find(""deo"") // ele encontra onde começou o deo, no caso indice 13 então frase.find(""deo"") = 13  caso não tenha o elemento na lista ele da -1 = não encontrado\n")
 print(v5, "(5) // curso in frase // retorna um valor booleano se o parametro esta ou não incluido em frase \n")
 print(v6, "(6) // frase.replace('python', 'android') // o proprio nome ja diz, ele troca itens, elementos da lista ou string \n")
 print(v7, "(7) // frase.upper() // passa itens da str para maiusculo \n " ) 
